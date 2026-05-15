@@ -1,0 +1,66 @@
+asset_id,ticker,alias_tickers,source_symbol,name,asset_type,main_category,sector,subsector,region,country,currency,data_source,status,is_equity,is_fixed_income,is_etf,is_adr,is_inverse,is_leveraged,is_allowed,requires_manual_data,notes
+RV_001,XLV,,ARCX:XLV,Health Care Select Sector SPDR Fund,ETF,Renta Variable,Salud,Salud EE.UU.,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,ETF sectorial de salud en Estados Unidos
+RV_002,IXJ,,,iShares Global Healthcare ETF,ETF,Renta Variable,Salud,Salud Global,Global,Global,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,ETF global de salud
+RV_003,IUHC.L,IUHC,XLON:IUHC,iShares S&P 500 Health Care Sector UCITS ETF,ETF,Renta Variable,Salud,Salud EE.UU.,Reino Unido,Reino Unido,GBP,yfinance,Revisar,1,0,1,0,0,0,1,0,Validar ticker compatible. Si no descarga datos mantener como Revisar
+RV_004,JNJ,,XNYS:JNJ,Johnson & Johnson,Acción,Renta Variable,Salud,Salud,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_005,NVO,,,Novo Nordisk,ADR,Renta Variable,Salud,Salud,Europa,Dinamarca,USD,yfinance,Permitido,1,0,0,1,0,0,1,0,
+RV_006,RHHBY,,,Roche Holding,ADR,Renta Variable,Salud,Salud,Europa,Suiza,USD,yfinance,Revisar,1,0,0,1,0,0,1,0,
+RV_007,FSNUY,,,Fresenius SE & Co. KGaA,ADR,Renta Variable,Salud,Salud,Europa,Alemania,USD,yfinance,Revisar,1,0,0,1,0,0,1,0,
+RV_008,1066.HK,,,Shandong Weigao Group Medical Polymer,Acción,Renta Variable,Salud,Salud,Asia,China,HKD,yfinance,Revisar,1,0,0,0,0,0,1,0,
+RV_009,ACTINVER_SALUD,,,Fondo de salud Actinver,Fondo,Renta Variable,Salud,Salud Global,Global,Global,MXN,Manual,Revisar,1,0,0,0,0,0,1,1,Placeholder editable. No inventar datos. Capturar nombre clave rendimiento comisión benchmark composición moneda riesgo y fuente oficial
+RV_010,FMSAUBD.MX,FMSAUBD,XMF:FMSAUBD,Fomento Económico Mexicano UBD UNT,Acción,Renta Variable,Revisar,Retail,México,México,MXN,yfinance,Revisar,1,0,0,0,0,0,1,0,FEMSA no clasifica como Salud. Mantener como Revisar o alternativa no como activo principal de Salud
+RV_011,KXI,,,iShares Global Consumer Staples ETF,ETF,Renta Variable,Consumo defensivo / retail básico,Consumo básico,Global,Global,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,
+RV_012,XLP,,,Consumer Staples Select Sector SPDR Fund,ETF,Renta Variable,Consumo defensivo / retail básico,Consumo básico,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,
+RV_013,PG,,,Procter & Gamble,Acción,Renta Variable,Consumo defensivo / retail básico,Consumo básico,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_014,NSRGY,,,Nestlé,ADR,Renta Variable,Consumo defensivo / retail básico,Consumo básico,Europa,Suiza,USD,yfinance,Permitido,1,0,0,1,0,0,1,0,
+RV_015,WMT,,XNYS:WMT,Walmart,Acción,Renta Variable,Consumo defensivo / retail básico,Consumo básico,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_016,COST,,,Costco,Acción,Renta Variable,Consumo defensivo / retail básico,Consumo básico,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,No confundir con COST.L que es Costain Group
+RV_017,TSCO.L,TSCO,XLON:TSCO,Tesco,Acción,Renta Variable,Consumo defensivo / retail básico,Consumo básico,Reino Unido,Reino Unido,GBP,yfinance,Revisar,1,0,0,0,0,0,1,0,
+RV_018,SORIANAB.MX,SORIANAB,BMEX:SORIANAB,Organización Soriana,Acción,Renta Variable,Consumo defensivo / retail básico,Consumo básico,México,México,MXN,yfinance,Revisar,1,0,0,0,0,0,1,0,
+RV_019,IXN,,,iShares Global Tech ETF,ETF,Renta Variable,Tecnología,Tecnología,Global,Global,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,
+RV_020,XLK,,,Technology Select Sector SPDR Fund,ETF,Renta Variable,Tecnología,Tecnología,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,
+RV_021,MSFT,,,Microsoft,Acción,Renta Variable,Tecnología,Software / Cloud / IA,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_022,AAPL,,,Apple,Acción,Renta Variable,Tecnología,Hardware / Ecosistema / Servicios,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_023,ASML,,,ASML Holding,ADR,Renta Variable,Tecnología,Semiconductores / Semiconductor equipment,Europa,Países Bajos,USD,yfinance,Permitido,1,0,0,1,0,0,1,0,
+RV_024,TSM,,,Taiwan Semiconductor Manufacturing Company,ADR,Renta Variable,Tecnología,Semiconductores,Asia,Taiwán,USD,yfinance,Permitido,1,0,0,1,0,0,1,0,
+RV_025,NVDA,,,Nvidia,Acción,Renta Variable,Tecnología,Semiconductores / IA,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,Activo con alta exposición a IA y semiconductores; revisar volatilidad
+RV_026,AVGO,,,Broadcom,Acción,Renta Variable,Tecnología,Semiconductores / Infraestructura de conectividad,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_027_ALT,SAP,,,SAP SE,Acción,Renta Variable,Tecnología,Software empresarial,Europa,Alemania,USD,yfinance,Revisar,1,0,0,1,0,0,1,0,Alternativa tecnológica secundaria. Útil para comparar diversificación pero no forma parte del set principal
+RV_028_ALT,ACN,,,Accenture plc,Acción,Renta Variable,Tecnología,Servicios IT y consultoría digital,EE.UU.,EE.UU.,USD,yfinance,Revisar,1,0,0,0,0,0,1,0,Alternativa tecnológica secundaria. Útil para comparar diversificación pero no forma parte del set principal
+RV_029_ALT,IBM,,,International Business Machines Corporation,Acción,Renta Variable,Tecnología,Software & IT Services,EE.UU.,EE.UU.,USD,yfinance,Revisar,1,0,0,0,0,0,1,0,Alternativa tecnológica secundaria. Útil para comparar diversificación pero no forma parte del set principal
+RV_030_ALT,CSCO,,,Cisco Systems Inc.,Acción,Renta Variable,Tecnología,Communications & Networking,EE.UU.,EE.UU.,USD,yfinance,Revisar,1,0,0,0,0,0,1,0,Alternativa tecnológica secundaria. Útil para comparar diversificación pero no forma parte del set principal
+RV_031,IGF,,,iShares Global Infrastructure ETF,ETF,Renta Variable,Infraestructura / Industriales / Construcción,Infraestructura,Global,Global,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,
+RV_032,EXI,,,iShares Global Industrials ETF,ETF,Renta Variable,Infraestructura / Industriales / Construcción,Industriales,Global,Global,USD,yfinance,Revisar,1,0,1,0,0,0,1,0,
+RV_033,FER.MC,FER,BMEX:FER,Ferrovial,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Infraestructura / Construcción / Concesiones,Europa,España,EUR,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_034,ACS.MC,ACS,BMEX:ACS,ACS Actividades de Construcción y Servicios,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Construcción / Infraestructura,Europa,España,EUR,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_035,GCC.MX,GCC,XMEX:GCC,GCC SAB de CV,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Construcción / Materiales,México,México,MXN,yfinance,Revisar,1,0,0,0,0,0,1,0,
+RV_036,CAT,,,Caterpillar,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Industrial / Maquinaria / Construcción,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_037,HON,,,Honeywell,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Industrial diversificada,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_038,UNP,,,Union Pacific,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Transporte / Industrial,EE.UU.,EE.UU.,USD,yfinance,Revisar,1,0,0,0,0,0,1,0,
+RV_039,NVR,,XNYS:NVR,NVR Inc.,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Construcción / Vivienda,EE.UU.,EE.UU.,USD,yfinance,Revisar,1,0,0,0,0,0,1,0,Sensible a tasas hipotecarias
+RV_040,COST.L,,,Costain Group,Acción,Renta Variable,Infraestructura / Industriales / Construcción,Construcción / Infraestructura,Reino Unido,Reino Unido,GBP,yfinance,Revisar,1,0,0,0,0,0,1,0,No confundir con COST que es Costco
+RV_041,DOG,,ARCX:DOG,ProShares Short Dow30,ETF,Renta Variable,No permitido,Inverso,EE.UU.,EE.UU.,USD,yfinance,No permitido,1,0,1,0,1,0,0,0,Instrumento corto/inverso no permitido
+RV_042,JXI,,,iShares Global Utilities ETF,ETF,Renta Variable,Utilities,Utilities,Global,Global,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,
+RV_043,XLU,,,Utilities Select Sector SPDR Fund,ETF,Renta Variable,Utilities,Utilities,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,1,0,0,0,1,0,
+RV_044,IBDRY,,,Iberdrola,ADR,Renta Variable,Utilities,Utilities,Europa,España,USD,yfinance,Permitido,1,0,0,1,0,0,1,0,
+RV_045,IBE.MC,IBE,XWBO:IBE,Iberdrola,Acción,Renta Variable,Utilities,Utilities,Europa,España,EUR,yfinance,Revisar,1,0,0,0,0,0,1,0,
+RV_046,NEE,,XNYS:NEE,NextEra Energy,Acción,Renta Variable,Utilities,Utilities,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_047,DUK,,XNYS:DUK,Duke Energy,Acción,Renta Variable,Utilities,Utilities,EE.UU.,EE.UU.,USD,yfinance,Permitido,1,0,0,0,0,0,1,0,
+RV_048,NGG,,XNYS:NGG,National Grid,ADR,Renta Variable,Utilities,Utilities,Reino Unido,Reino Unido,USD,yfinance,Permitido,1,0,0,1,0,0,1,0,
+RV_049,ENEL.MI,ENEL,XWBO:ENEL,Enel,Acción,Renta Variable,Utilities,Utilities,Europa,Italia,EUR,yfinance,Revisar,1,0,0,0,0,0,1,0,
+RF_001,CETES_1Y,,,CETES 1 año,Renta fija,Renta Fija,CETES,Corto Plazo,México,México,MXN,Manual,Manual,0,1,0,0,0,0,1,1,Instrumento gubernamental mexicano de corto plazo. Tasa capturada manualmente por el usuario
+RF_002,CETES_2Y,,,CETES 2 años,Renta fija,Renta Fija,CETES,Mediano Plazo,México,México,MXN,Manual,Manual,0,1,0,0,0,0,1,1,Instrumento gubernamental mexicano de mediano plazo. Tasa capturada manualmente por el usuario
+RF_003,BONOS_MX_10Y,,,Bonos México 10 años,Renta fija,Renta Fija,Bonos México,Largo Plazo,México,México,MXN,Manual,Manual,0,1,0,0,0,0,1,1,Bono gubernamental mexicano de largo plazo. Tasa capturada manualmente por el usuario
+RF_004,UDIBONOS_10Y,,,Udibonos 10 años,Renta fija,Renta Fija,UDIBONOS,Protegida inflación,México,México,MXN,Manual,Manual,0,1,0,0,0,0,1,1,Rendimiento real: 4.20% + inflación. No convertir a tasa nominal sin inflación esperada capturada
+RF_005,TBILLS_US_1Y,,,T-Bills USA 1 año,Renta fija,Renta Fija,Bonos USA,Corto Plazo,EE.UU.,EE.UU.,USD,Manual,Manual,0,1,0,0,0,0,1,1,Instrumento en USD. Incluye riesgo cambiario MXN/USD
+RF_006,TBONDS_US_30Y,,,T-Bonds USA 30 años,Renta fija,Renta Fija,Bonos USA,Largo Plazo,EE.UU.,EE.UU.,USD,Manual,Manual,0,1,0,0,0,0,1,1,Instrumento en USD con mayor duración y sensibilidad a tasas. Incluye riesgo cambiario MXN/USD
+RF_OPT_001,CETES_1M,,,CETES 1 mes,Renta fija,Renta Fija,Gubernamental,Corto Plazo,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Movido a Opcional. No aparece en RF activa por defecto
+RF_OPT_002,CETES_3M,,,CETES 3 meses,Renta fija,Renta Fija,Gubernamental,Corto Plazo,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Movido a Opcional. No aparece en RF activa por defecto
+RF_OPT_003,CETES_6M,,,CETES 6 meses,Renta fija,Renta Fija,Gubernamental,Mediano Plazo,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Movido a Opcional. No aparece en RF activa por defecto
+RF_OPT_004,BONDES_F,,,BONDES F,Renta fija,Renta Fija,Gubernamental,Tasa variable,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Movido a Opcional. No aparece en RF activa por defecto
+RF_OPT_005,UDIBONO_3Y,,,UDIBONO 3 años,Renta fija,Renta Fija,Gubernamental,Protegida inflación,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Movido a Opcional. No aparece en RF activa por defecto
+RF_OPT_006,AGG,,,iShares Core U.S. Aggregate Bond ETF,ETF,Renta Fija,Bonos,Global,EE.UU.,EE.UU.,USD,yfinance,Revisar / Opcional,0,1,1,0,0,0,1,0,Movido a Opcional. No aparece en RF activa por defecto
+RF_OPT_007,BNDX,,,Vanguard Total International Bond ETF,ETF,Renta Fija,Bonos,Internacional,Internacional,Global,USD,yfinance,Revisar / Opcional,0,1,1,0,0,0,1,0,Movido a Opcional. No aparece en RF activa por defecto
+RF_OPT_008,ACTINVER_DEUDA_CP,,,Fondo Actinver deuda corto plazo,Fondo,Renta Fija,Fondo Actinver,Fondo,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Placeholder manual. Movido a Opcional
+RF_OPT_009,ACTINVER_LIQUIDEZ,,,Fondo Actinver liquidez / gubernamental,Fondo,Renta Fija,Fondo Actinver,Fondo,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Placeholder manual. Movido a Opcional
+RF_OPT_010,ACTINVER_UDIS,,,Fondo Actinver cobertura inflación / UDIS,Fondo,Renta Fija,Fondo Actinver,Fondo,México,México,MXN,Manual,Revisar / Opcional,0,1,0,0,0,0,1,1,Placeholder manual. Movido a Opcional

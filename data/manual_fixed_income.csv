@@ -1,0 +1,7 @@
+instrument_key,name,annual_yield,currency,sector,notes
+CETES_1Y,CETES 1 año,7.17,MXN,CETES,Tasa capturada manualmente por el usuario. Fuente: cetesdirecto.mx / Banxico
+CETES_2Y,CETES 2 años,8.50,MXN,CETES,Tasa capturada manualmente por el usuario. Fuente: cetesdirecto.mx / Banxico
+BONOS_MX_10Y,Bonos México 10 años,9.20,MXN,Bonos México,Tasa capturada manualmente por el usuario. Fuente: Banxico / Bloomberg
+UDIBONOS_10Y,Udibonos 10 años,4.20,MXN,UDIBONOS,Rendimiento REAL. Mostrar como 4.20% + inflación. No convertir a nominal sin inflación esperada
+TBILLS_US_1Y,T-Bills USA 1 año,3.65,USD,Bonos USA,Instrumento en USD. Riesgo cambiario MXN/USD. Fuente: U.S. Treasury / FRED
+TBONDS_US_30Y,T-Bonds USA 30 años,5.04,USD,Bonos USA,Instrumento en USD. Mayor duración y sensibilidad a tasas. Riesgo cambiario MXN/USD

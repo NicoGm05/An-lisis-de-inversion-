@@ -1,0 +1,23 @@
+# Actinver Portfolio Dashboard – Configuration
+# Edit this file to set your API keys and preferences.
+
+api_keys:
+  financial_modeling_prep: ""   # Get free key at https://financialmodelingprep.com
+  alpha_vantage: ""             # Get free key at https://www.alphavantage.co
+  finnhub: ""                   # Get free key at https://finnhub.io
+
+portfolio:
+  total_capital: 1000000        # $1,000,000 MXN
+  base_currency: "MXN"
+  target_equity_pct: 0.40       # 40% Renta Variable
+  target_fixed_income_pct: 0.60 # 60% Renta Fija
+
+market_data:
+  historical_years: 5           # Years of historical data to fetch
+  default_risk_free_rate: 0.0   # Placeholder. Enter real CETES rate manually in the app.
+  default_benchmark: "ACWI"     # Default benchmark ticker
+
+cache:
+  enabled: true
+  cache_days_valid: 1           # Use cached data if < N days old
+  cache_dir: "data/cache"
